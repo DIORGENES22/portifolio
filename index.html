@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - CodeCreate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- nav menu -->
+     <div class="conatainer">
+        <nav id="">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- dark mode -->
+             <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="monn"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+             </div>
+             <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction"></i>
+             </div>
+
+        </nav>
+
+        <!-- main -->
+        <main class="wrapper">
+            <section class="featured-box" id="Home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello i'm</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typeText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Diórgenes! i'm a web developer </p>
+                    </div>
+                    <div class="btn text-btn">
+                        <button class="hire-btn">Hire me</button>
+                        <button class="btn">Download CV<i class='bx bxs-download'></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><i class='bx bxl-linkedin'></i></div>
+                        <div class="icon"><i class='bx bxl-github'></i></div>
+                    </div>
+                </div>
+                <div class="featured-imagem">
+                    <div class="image">
+                        <img src="img/5138.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- about box -->
+             <section class="section" id="about">
+             <div class="top-header">
+                <h1>About me</h1>
+             </div>
+             <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <figure class="about-me">
+                            <figcaption>
+                                <img src="" alt="" class="profile" />
+                                <h2>Web developer</h2>
+                                <p>My name is Diórgenes! i'm a web developer</p>
+                            </figcaption>
+                        </figure>
+                        <button class="-aboutme">Hire me</button>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillbox">
+                        <span class="titlle">HTML</span>
+                        <div class="skillbar">
+                                <span class="skillper html">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skillbox">
+                            <span class="titlle">Java Script</span>
+                            <div class="skillbar">
+                                <span class="skillper javascript">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skillbox">
+                                <span class="titlle">CSS</span>
+                                <div class="skillbar">
+                                    <span class="skillper css">
+                                        <span class="tooltip">50%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skillbox">
+                                    <span class="titlle">Java</span>
+                                    <div class="skillbar">
+                                        <span class="skillper java">
+                                            <span class="tooltip">30%</span>
+                                        </span>
+                                    </div>
+                                </div>
+                          </div>
+                    </div>
+                
+             </section>
+             <!-- porject box -->
+              <section class="section" id="Projects">
+                <div class="top-header">
+                <h1>Projects</h1>
+                </div>
+                    <div class="project-container">
+                        <div class="project-box">
+                            <i class='bx bx-code-alt'></i>
+                            <h3>Comleted</h3>
+                            <label>70+ finished Projects</label>
+                        </div>
+                        <div class="project-container">
+                            <div class="project-box">
+                                <i class='bx bx-code-alt'></i>
+                                <h3>Comleted</h3>
+                                <label>clients 70+</label>
+                            </div>
+                        <div class="project-container">
+                            <div class="project-box">
+                                <i class='bx bx-code-alt'></i>
+                                <h3>Experience</h3>
+                                <label>2 months</label>
+                            </div>
+                     </div>
+              </section>
+              <!-- Contact -->
+               <section class="section" id="contac"> 
+                <div class="top-header">
+                    <h1>Let's Work together</h1>
+                    <span>Do you have a porjects in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <di class="col">
+                        <div class="contact-info">
+                            <h2>find me <i class='bx bxs-down-arrow-alt' ></i></h2>
+                            <p><i class='bx bx-envelope'></i>Email: diorgenesmoura@gmail.com</p>
+                            <p><i class='bx bx-phone' ></i>Phone/wats: (51) 992335569</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="" placeholder="subject">
+                                <textare placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class='bx bx-message' ></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               </section>
+        </main>
+        <!-- Footer -->
+         <footer>
+            <div class="middle-footer"></div>
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#conract">Contact</a>
+                </li>
+            </ul>
+         </footer>
+     </div>
+     
+    
+
+
+
+</body>
+</html>
