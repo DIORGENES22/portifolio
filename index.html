@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - CodeCreate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;400;700&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@100;400;700&family=Sixtyfour+Convergence:BLED,SCAN@38,43&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
     <!-- nav menu -->
      <div class="conatainer">
-        <nav id="">
+        <nav id="header">
             <div class="nav-logo">
                 <p class="nav-name">Logo</p>
             </div>
@@ -36,6 +40,7 @@
                 </ul>
 
             </div>
+
             <!-- dark mode -->
              <div class="mode">
                 <div class="moon-sun" id="toggle-switch">
@@ -43,6 +48,7 @@
                     <i class="fa fa-sun" id="sun"></i>
                 </div>
              </div>
+             
              <div class="nav-menu-btn">
                 <i class="bx bx-menu" onclick="myMenuFunction"></i>
              </div>
@@ -54,22 +60,23 @@
             <section class="featured-box" id="Home">
                 <div class="featured-text">
                     <div class="hello">
-                        <p>Hello i'm</p>
+                        <p>Olá</p>
                     </div>
                     <div class="featured-name">
                         <span class="typeText"></span>
                     </div>
                     <div class="text-info">
-                        <p>My name is Diórgenes! i'm a web developer </p>
+                        <p>Meu nome é Diórgenes moura! E sou desenvolvedor. </p>
                     </div>
-                    <div class="btn text-btn">
-                        <button class="hire-btn">Hire me</button>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire me</button>
                         <button class="btn">Download CV<i class='bx bxs-download'></i></button>
                     </div>
                     <div class="social_icons">
                         <div class="icon_circle"></div>
                         <div class="icon"><i class='bx bxl-linkedin'></i></div>
                         <div class="icon"><i class='bx bxl-github'></i></div>
+        
                     </div>
                 </div>
                 <div class="featured-imagem">
@@ -199,7 +206,7 @@
         </main>
         <!-- Footer -->
          <footer>
-            <div class="middle-footer"></div>
+            <div class="middle-footer">
             <ul class="footer-menu">
                 <li class="footer_menu_list">
                     <a href="#home">Home</a>
@@ -214,6 +221,15 @@
                     <a href="#conract">Contact</a>
                 </li>
             </ul>
+        </div>
+        <div class="footersocial-icons">
+            <div class="icon"><i class='bx bxl-linkedin'></i></div>
+            <div class="icon"><i class='bx bxl-github'></i></div>
+
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Portifolio</a>Portifolio</p>
+        </div>
          </footer>
      </div>
      
